@@ -1,0 +1,43 @@
+1.
+The Fetch Api is a promise based api which takes place of the functionalities of the XMLHttpRequest (XHR).It provides an interface for fetching resources from around the web.
+
+2.
+A JavaScript promise is an object that represents the eventual completion or failure of an asynchronous operation and its resulting value.
+
+3.
+When Fetch Api conjunction with promise chaining, is really simple and flexible. So Fetch Api is popular among developers.
+
+4.
+The Fetch Api is completely promise based.
+
+5.
+Function Declaration Syntax:
+function nameOfFunction(){}
+
+6.
+The function keyword.
+
+7.
+The function keyword is followed by the name of the function.
+
+8.
+Function names follow the same rules as variables. They can contain letters, numbers(but not as the first character of the name), underscores, and $ signs. If there is more than one part to the name, the convention is to use camelCase for easier readability.
+
+9.
+Promise chaining is represented by the .then() blocks.
+
+10.
+We use arrow functions inside the .then() block, so that our objects can be seamlessly passed from one.
+
+11.
+The Geolocation API allows the user to provide their location to web applications if they so desire. For privacy reason, the user is asked for permission to report location information.
+
+12.
+Geolocation.getCurrentPosition(): Retrieves the device's current location.
+Geolocation.watchPosition(): Registers a handler function that will be called automatically each time the position of the device changes, returning the updated location.
+
+13.
+Applications that want to use the Geolocation API must add the geolocation permission property to their code. The user's device will prompt the user to allow location access the first time the location is requested.
+
+14.
+If the Geolocation Api is available in the active browser window, then we can set the .getCurrentPosition() method on navigator.geolocation. It gets the user's current location by longitude and latitude.
